@@ -1,0 +1,8 @@
+logs/*
+!logs/.gitkeep
+__pycache__/
+
+# Reviewed original policy-trial evidence; keep other runtime captures local.
+!logs/baseline.jsonl
+!logs/baseline_run2.jsonl
+reproductions/

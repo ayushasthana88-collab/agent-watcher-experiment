@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+
+# Local credentials and environment files; one reviewed fictional fixture only.
+.env
+.env.*
+!.env.example
+!experiment/protected/.env
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Superseded working drafts and a stray terminal-output fragment stay local.
+/README.proposed.md
+/experiment/policy_test/README.proposed.md
+/experiment/poli
